@@ -34,32 +34,30 @@ body{
     justify-content: space-around;
 }
 
-.toolbox-priority-cont .color-1{
+.toolbox-priority-cont .color{
 
-    background-color: red;
-    height: 3rem;
-    width: 4rem;
+    height: 2rem;
+    width: 4.5rem;
 }
 
-.toolbox-priority-cont .color-2{
+.toolbox-priority-cont .lightpink{
 
-    background-color: blue;
-    height: 3rem;
-    width: 4rem;
+    background-color: lightpink;
 }
 
-.toolbox-priority-cont .color-3{
+.toolbox-priority-cont .lightgreen{
 
-    background-color: green;
-    height: 3rem;
-    width: 4rem;
+    background-color: lightgreen;
 }
 
-.toolbox-priority-cont .color-4{
+.toolbox-priority-cont .lightblue{
 
-    background-color: pink;
-    height: 3rem;
-    width: 4rem;
+    background-color: lightblue;
+}
+
+.toolbox-priority-cont .black{
+
+    background-color: black;
 }
 
 .action-btn-cont{
@@ -67,5 +65,5 @@ body{
     background-color: crimson;
     height: 3.5rem;
     width: 7rem;
-    margin-left: 10rem;
+    margin-left: 8rem;
 }
