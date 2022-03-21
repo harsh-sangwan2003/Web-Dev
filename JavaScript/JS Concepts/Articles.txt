@@ -1,0 +1,2 @@
+https://medium.com/innovation-incubator/javascript-execution-context-c5d807d206f5
+https://medium.com/@Esakkimuthu/temporal-dead-zone-3dd6d3fbcbda
