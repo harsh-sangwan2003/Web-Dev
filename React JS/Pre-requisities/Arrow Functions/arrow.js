@@ -36,6 +36,7 @@ test2();
 
 const obj = {
 
+    name: 'Harsh',
     test1: () => console.log(this),
     test2: function () {
 
