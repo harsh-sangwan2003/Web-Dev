@@ -1,41 +1,3 @@
-// let car1 = {
-
-//     name:'BMW',
-//     model:'X6',
-//     color:'Blue'
-// }
-
-// let car2 = {
-
-//     name:'Mercedes',
-//     model:'S-class',
-//     color:'Red'
-// }
-// function car(name, color, model) {
-
-//     console.log(this);
-
-//     this.name = name;
-//     this.color = color;
-//     this.model = model;
-
-//     this.display = () => {
-
-//         console.log("I am driving a " + this.name);
-//     }
-
-//     console.log(this);
-// }
-
-// let car1 = new car('BMW', 'White', 'X-6');
-// let car2 = new car('Mercedes', 'Black', 'S-class');
-
-// console.log(car);
-// console.log(car1);
-// console.log(car2);
-
-// car1.display();
-
 class Person {
 
     constructor(name, age) {
@@ -45,6 +7,29 @@ class Person {
     }
 }
 
-let p1 = new Person('Harsh', 19);
+class Teacher extends Person {
+
+    constructor(name, age, classStrength) {
+
+        super(name, age);
+        this.classStrength = classStrength;
+    }
+}
+
+class Student extends Person {
+
+    constructor(name, age, cgpa) {
+
+        super(name, age);
+        this.cgpa = cgpa;
+    }
+}
+
+let p1 = new Person('Steve', 30);
 console.log(p1);
-console.log(typeof Person);u
+
+let t1 = new Teacher('Adam', 19, 100);
+console.log(t1);
+
+let s1 = new Person('Samay', 20, 8.5);
+console.log(s1);
