@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+        <title>Demo</title>
+    </head>
+
+    <body>
+
+        <div id="root"></div>
+    </body>
+
+    <script type="text/babel">
+
+        //JSX
+        function Child() {
+
+            return (
+
+                <h1>Hello</h1>
+            )
+        }
+
+        function Child2() {
+
+            return (
+
+                <h1>Goodbye</h1>
+            )
+        }
+
+        function Parent() {
+
+            return (
+
+                <>
+                    <Child />
+                    <Child />
+                    <Child2 />
+                </>
+            );
+        }
+
+        ReactDOM.render(<Parent />, document.getElementById('root'));
+
+    </script>
+
+</html>
