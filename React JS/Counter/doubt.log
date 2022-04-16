@@ -1,0 +1,33 @@
+class A{
+
+    constructor(){
+
+        this.x = 20;
+        this.y = 30;
+    }
+
+    hello(){
+
+        this.x++;
+        console.log(this.x,this.y);
+        console.log(this);
+    }
+
+    fn = ()=>{
+
+        this.y++;
+        console.log(this.x,this.y);
+        console.log(this);
+    }
+}
+undefined
+let a = new A();
+undefined
+a.hello();
+VM753:12 21 30
+VM753:13 A {x: 21, y: 30, fn: ƒ}
+undefined
+a.fn();
+VM753:19 21 31
+VM753:20 A {x: 21, y: 31, fn: ƒ}
+undefined
