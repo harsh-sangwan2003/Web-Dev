@@ -8,6 +8,7 @@ class Counter extends React.Component {
 
             count: 0
         }
+
     }
 
     //Increment
@@ -18,6 +19,7 @@ class Counter extends React.Component {
             count: this.state.count + 1
         })
     }
+
 
     //Decrement
     decrement = () => {
