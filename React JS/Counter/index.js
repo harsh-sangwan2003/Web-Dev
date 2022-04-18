@@ -1,4 +1,4 @@
-class Counter extends React.Component { z
+class Counter extends React.Component {
 
     constructor() {
 
